@@ -31,22 +31,407 @@ li{
     color: rgb(116, 0, 248);
 }
 
+.ctrl{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+  
+    
+}
 
 .ctrl1{
     display: flex;
     justify-content: space-around;
-  
+  width: 80%;
     align-items: center;
     margin-top: 10%;
-    
+    flex-wrap: wrap;
 }
 .gauche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
     width: 50%;
     height: 50vh;
-    border: 2px solid white;
+   
 }
 .droit{
-    width: 30%;
-    height: 50vh;
-    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 60vh;
+   margin-right: 8%;
+    background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+span{
+    display: block;
+    margin-bottom: 2%;
+    font-family:'Franklin Gothic Medium';
 }
+p1{
+    font-size: 3rem;
+  color: white;
+  
+  display: block;
+  margin-bottom: 1%;
+  
+}
+
+p2{
+    display: block;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 3%;
+    text-decoration:0.5rem underline rgb(116, 0, 248);
+  }
+  p3{
+    display: block;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 3%;
+  
+  }
+  p4{
+    
+    font-size: 3rem;
+    color:rgb(116, 0, 248) ;
+    margin-bottom: 3%;
+  }
+  p5{
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgb(116, 0, 248) ;
+    border-radius: 1rem;
+padding: 0.2rem;
+margin-bottom: 6%;
+width: 80%;
+text-align: center;
+  }
+
+  p6{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+   width: 40%;
+   
+  }
+  
+
+  @media (min-width:1400px) and (max-width:1660px) {
+    p1{
+        font-size: 2rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 4rem;
+        color: white;
+        margin-bottom: 3%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 2rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 90%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+       width: 40%;
+       
+      }
+      .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 65vh;
+        margin-left: 5%;
+        background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .gauche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin-right: 8%;
+        width: 50%;
+        height: 50vh;
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 10%;
+        flex-wrap: nowrap;
+    }
+  }
+  @media (min-width:1200px) and (max-width:1399px) {
+    p1{
+        font-size: 2rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 4rem;
+        color: white;
+        margin-bottom: 3%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 2rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 90%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+       width: 40%;
+       
+      }
+      .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 70vh;
+        margin-left: 5%;
+        background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .gauche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8%;
+        width: 50%;
+        height: 50vh;
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 10%;
+        flex-wrap: nowrap;
+    }
+  }
+  @media (min-width:1000px) and (max-width:1199px) {
+    .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 65vh;
+        margin-left: 5%;
+        background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .gauche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        margin-right: 8%;
+        width: 50%;
+        height: 50vh;
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 10%;
+        flex-wrap: nowrap;
+    }
+    p1{
+        font-size: 1.5rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 3.5%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 2rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 80%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-around;
+       width: 80%;
+       
+      }
+  }
+
+  @media (min-width:500px) and (max-width:1000px) {
+
+    .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 65vh;
+       margin-right: 5%;
+        background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .gauche{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+        width: 50%;
+        height: 50vh;
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 10%;
+        flex-wrap: wrap;
+    }
+    p1{
+        font-size: 1.5rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 3.5%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 2rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 80%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-around;
+       width: 80%;
+       
+      }
+  }
