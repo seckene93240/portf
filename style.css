@@ -22,13 +22,15 @@ li{
     margin-right: 5%;
     font-size: 25px;
     font-family: 'Segoe UI';
-    color: rgb(116, 0, 248);
+    color: white;
+ 
 }
 
 
 .boss{
     font-size: 30px;
     color: rgb(116, 0, 248);
+
 }
 
 .ctrl{
@@ -64,8 +66,10 @@ li{
     width: 35%;
     height: 60vh;
    margin-right: 8%;
-    background-image: url("https://i.pinimg.com/736x/bf/f7/9b/bff79bd65e63067782714cdde1df28d4.jpg");
+    background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
 background-repeat: no-repeat;
+border: 2px solid  rgb(116, 0, 248);
+border-radius: 10%;
 background-size: cover;}
 
 span{
@@ -88,7 +92,7 @@ p2{
     font-size: 5rem;
     color: white;
     margin-bottom: 3%;
-    text-decoration:0.5rem underline rgb(116, 0, 248);
+  
   }
   p3{
     display: block;
@@ -103,17 +107,19 @@ p2{
     font-size: 3rem;
     color:rgb(116, 0, 248) ;
     margin-bottom: 15%;
+    
   }
   p5{
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     background-color:rgb(116, 0, 248) ;
     border-radius: 1rem;
-padding: 0.6rem;
+padding: 0.4rem;
 margin-bottom: 10%;
-width: 80%;
+width: 100%;
 text-align: center;
+font-family: "Atkinson Hyperlegible Next";
   }
 
   p6{
@@ -122,6 +128,7 @@ text-align: center;
     justify-content: space-between;
    width: 70%;
    margin-left: 2%;
+   text-align: center;
    
   }
   
