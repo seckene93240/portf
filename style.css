@@ -131,7 +131,14 @@ font-family: "Atkinson Hyperlegible Next";
    text-align: center;
    
   }
-  
+  .haha{
+    display: none;
+ 
+  }
+  button{
+   display: none;}
+     
+    
   @media (min-width:1660px) and (max-width:1875px) {
     p1{
       font-size: 3rem;
@@ -444,19 +451,69 @@ font-family: "Atkinson Hyperlegible Next";
   }
   }
 
-  @media (min-width:500px) and (max-width:1000px) {
+  @media (min-width:00px) and (max-width:999px) {
+    .btn12{
+      display: block;
+  }
+   
+   
+.boss{
+  font-size: 30px;
+  color: rgb(116, 0, 248);
+
+
+}
+   
+    .liste1{
+      display: flex;
+      justify-content: space-between;
+      align-items:center ;
+      margin-top: 3%;
+      margin-left: 3%;
+      margin-right: 3%;
+      z-index: 1;
+     
+     
+    }  
+    .spé1{
+      
+      display: none;
+      margin-top: 5%;
+      font-size: 5px;
+      width: 20%;
+    border: 2px solid white;
+
+    
+  }
+  li{
+ 
+    display: flex;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    color: white;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+}
+.haha{
+  display: flex;
+
+}
 
     .droit{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
-        height: 65vh;
+        width: 70%;
+        height: 100vh;
        margin-right: 2%;
         background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
     background-repeat: no-repeat;
     background-size: cover;}
     .gauche{
+      margin-top: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -470,8 +527,10 @@ font-family: "Atkinson Hyperlegible Next";
         justify-content: space-around;
       width: 100%;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 0%;
         flex-wrap: wrap;
+        z-index: 1;
+
     }
     p1{
         font-size: 1.5rem;
@@ -528,5 +587,13 @@ font-family: "Atkinson Hyperlegible Next";
         font-family:'Franklin Gothic Medium';
         margin-left: 0%;
         text-align: center;
+    }
+    button{
+      width: 20%;
+      padding: 5%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      background-color: white;
     }
   }
