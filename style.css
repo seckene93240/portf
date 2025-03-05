@@ -17,10 +17,11 @@ body{
 .spé1{
     display: flex;
     margin: 1%;
+
 }
 li{
     display: flex;
-    margin-right: 5%;
+    margin-right: 20%;
     font-size: 25px;
     font-family: 'Segoe UI';
     color: white;
@@ -137,12 +138,51 @@ font-family: "Atkinson Hyperlegible Next";
  
   }
   button{
-   display: none;
-  
-  
-  }
+   display: none;}
      
-    
+   #popo{
+    margin-top: 50vh;
+    font-size: 40px;
+  color: white;  
+ }
+ .projet{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top:10% ;
+ }
+ .projet1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top:10% ;
+ }
+ .carre{
+  border: 2px solid white;
+  width: 30%;
+  height: 60vh;
+  margin-right: 5%;
+  background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+ .carre1{
+  border: 2px solid white;
+  width: 30%;
+  height: 60vh;
+  margin-left: 5%;
+  background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+ p{
+  color: white;
+  font-size: 20px;
+ }
   @media (min-width:1660px) and (max-width:1875px) {
     p1{
       font-size: 3rem;
@@ -200,10 +240,44 @@ font-family: "Atkinson Hyperlegible Next";
       font-family:'Franklin Gothic Medium';
       margin-left: 10%;
   }
-  .haha{
-    display: none;
- 
-  }
+  .projet{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .projet1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .carre{
+    border: 2px solid white;
+    width: 30%;
+    height: 70vh;
+    margin-right: 5%;
+    background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   .carre1{
+    border: 2px solid white;
+    width: 30%;
+    height: 110vh;
+    margin-left: 5%;
+    background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   p{
+    color: white;
+    font-size: 20px;
+   }
   }
   @media (min-width:1400px) and (max-width:1659px) {
     p1{
@@ -385,6 +459,44 @@ font-family: "Atkinson Hyperlegible Next";
     display: none;
  
   }
+  .projet{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .projet1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .carre{
+    border: 2px solid white;
+    width: 30%;
+    height: 60vh;
+    margin-right: 5%;
+    background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   .carre1{
+    border: 2px solid white;
+    width: 30%;
+    height: 100vh;
+    margin-left: 5%;
+    background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   p{
+    color: white;
+    font-size: 20px;
+   }
   }
   @media (min-width:1000px) and (max-width:1199px) {
     p2{
@@ -465,10 +577,48 @@ font-family: "Atkinson Hyperlegible Next";
       margin-left: 2%;
       width: 100%;
   }
-  .haha{
+   .haha{
     display: none;
  
   }
+  .projet{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .projet1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+   }
+   .carre{
+    border: 2px solid white;
+    width: 40%;
+    height: 60vh;
+    margin-right: 5%;
+    background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   .carre1{
+    border: 2px solid white;
+    width: 40%;
+    height: 120vh;
+    margin-left: 5%;
+    background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   }
+   p{
+    color: white;
+    font-size: 15px;
+   }
   }
 
   @media (min-width:00px) and (max-width:999px) {
@@ -497,13 +647,14 @@ font-family: "Atkinson Hyperlegible Next";
     .spé1{
       
       display: none;
-      margin-top: 10%;
+      margin-top: 0%;
      justify-content: center;
      align-items:center ;
-      width: 100%;
-  
+      width: 50%;
+      
   height: 40vh;
   }
+  
   li{
  
     display: flex;
@@ -516,7 +667,7 @@ font-family: "Atkinson Hyperlegible Next";
     display:flex ;
     justify-content: center;
     text-align: center;
-    
+    width: 50%;
 }
 .haha{
   display: flex;
@@ -621,4 +772,51 @@ font-family: "Atkinson Hyperlegible Next";
       border: none;
       background-color: white;
     }
+    .ehehe{
+      display: block;
+    }
+    .projet{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .projet1{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .carre{
+      border: 2px solid white;
+      width: 50%;
+      height: 60vh;
+      margin-right: 5%;
+      background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+     }
+    
+     .carre1{
+      border: 2px solid white;
+      width: 60%;
+      height: 120vh;
+      margin-left: 0%;
+      background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+     }
+     p{
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom:2% ;
+     }
   }
