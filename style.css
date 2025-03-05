@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 body{
     background-color:#090A0E;
+   
 }
 .liste1{
     display: flex;
@@ -136,7 +137,10 @@ font-family: "Atkinson Hyperlegible Next";
  
   }
   button{
-   display: none;}
+   display: none;
+  
+  
+  }
      
     
   @media (min-width:1660px) and (max-width:1875px) {
@@ -195,6 +199,10 @@ font-family: "Atkinson Hyperlegible Next";
       margin-bottom: 2%;
       font-family:'Franklin Gothic Medium';
       margin-left: 10%;
+  }
+  .haha{
+    display: none;
+ 
   }
   }
   @media (min-width:1400px) and (max-width:1659px) {
@@ -281,6 +289,10 @@ font-family: "Atkinson Hyperlegible Next";
       margin-bottom: 2%;
       font-family:'Franklin Gothic Medium';
       margin-left: 10%;
+  }
+  .haha{
+    display: none;
+ 
   }
   }
   @media (min-width:1200px) and (max-width:1399px) {
@@ -369,6 +381,10 @@ font-family: "Atkinson Hyperlegible Next";
       margin-left: 10%;
       width: 100%;
   }
+  .haha{
+    display: none;
+ 
+  }
   }
   @media (min-width:1000px) and (max-width:1199px) {
     p2{
@@ -449,6 +465,10 @@ font-family: "Atkinson Hyperlegible Next";
       margin-left: 2%;
       width: 100%;
   }
+  .haha{
+    display: none;
+ 
+  }
   }
 
   @media (min-width:00px) and (max-width:999px) {
@@ -473,29 +493,30 @@ font-family: "Atkinson Hyperlegible Next";
       margin-right: 3%;
       z-index: 1;
      
-     
     }  
     .spé1{
       
       display: none;
-      margin-top: 5%;
-      font-size: 5px;
-      width: 20%;
-    border: 2px solid white;
-
-    
+      margin-top: 10%;
+     justify-content: center;
+     align-items:center ;
+      width: 100%;
+  
+  height: 40vh;
   }
   li{
  
     display: flex;
-    margin-bottom: 20%;
+    margin-top: 0%;
+    margin-bottom: 10%;
     margin-right: 0%;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Segoe UI';
     color: white;
     display:flex ;
     justify-content: center;
     text-align: center;
+    
 }
 .haha{
   display: flex;
@@ -507,11 +528,13 @@ font-family: "Atkinson Hyperlegible Next";
         justify-content: center;
         align-items: center;
         width: 70%;
-        height: 100vh;
+        height: 80vh;
        margin-right: 2%;
         background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+ 
+  }
     .gauche{
       margin-top: 10%;
         display: flex;
@@ -520,6 +543,7 @@ font-family: "Atkinson Hyperlegible Next";
         margin-left: 0%;
         width: 50%;
         height: 50vh;
+        
        
     }
     .ctrl1{
@@ -589,11 +613,12 @@ font-family: "Atkinson Hyperlegible Next";
         text-align: center;
     }
     button{
-      width: 20%;
-      padding: 5%;
+      width: 5%;
+      padding: 0.5rem;
       display: flex;
       justify-content: center;
       text-align: center;
+      border: none;
       background-color: white;
     }
   }
