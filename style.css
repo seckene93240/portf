@@ -145,7 +145,7 @@ font-family: "Atkinson Hyperlegible Next";
     font-size: 40px;
   color: white;  
  }
- .projet{
+#projet{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -160,9 +160,9 @@ font-family: "Atkinson Hyperlegible Next";
   margin-top:10% ;
  }
  .carre{
-  border: 2px solid white;
+
   width: 30%;
-  height: 60vh;
+  height: 70vh;
   margin-right: 5%;
   background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
   background-size: cover;
@@ -170,10 +170,10 @@ font-family: "Atkinson Hyperlegible Next";
 
  }
  .carre1{
-  border: 2px solid white;
+
   width: 30%;
-  height: 60vh;
-  margin-left: 5%;
+  height: 80vh;
+  margin-right: 5%;
   background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,6 +182,21 @@ font-family: "Atkinson Hyperlegible Next";
  p{
   color: white;
   font-size: 20px;
+  margin-bottom:2% ;
+  margin: 2%;
+ }
+ #Pro{
+  font-size: 2.5rem;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family:'Franklin Gothic Medium';
+    color:  rgb(116, 0, 248);
+    text-decoration: underline white;
+    
  }
   @media (min-width:1660px) and (max-width:1875px) {
     p1{
@@ -240,7 +255,7 @@ font-family: "Atkinson Hyperlegible Next";
       font-family:'Franklin Gothic Medium';
       margin-left: 10%;
   }
-  .projet{
+  #projet{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -255,20 +270,20 @@ font-family: "Atkinson Hyperlegible Next";
     margin-top:10% ;
    }
    .carre{
-    border: 2px solid white;
+    
     width: 30%;
     height: 70vh;
-    margin-right: 5%;
+    margin-left: 0%;
     background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   
    }
    .carre1{
-    border: 2px solid white;
+   
     width: 30%;
     height: 110vh;
-    margin-left: 5%;
+    margin-left: 0%;
     background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -459,7 +474,7 @@ font-family: "Atkinson Hyperlegible Next";
     display: none;
  
   }
-  .projet{
+  #projet{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -474,17 +489,17 @@ font-family: "Atkinson Hyperlegible Next";
     margin-top:10% ;
    }
    .carre{
-    border: 2px solid white;
+ 
     width: 30%;
     height: 60vh;
-    margin-right: 5%;
+    margin-left: 5%;
     background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   
    }
    .carre1{
-    border: 2px solid white;
+
     width: 30%;
     height: 100vh;
     margin-left: 5%;
@@ -581,7 +596,7 @@ font-family: "Atkinson Hyperlegible Next";
     display: none;
  
   }
-  .projet{
+  #projet{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -596,22 +611,22 @@ font-family: "Atkinson Hyperlegible Next";
     margin-top:10% ;
    }
    .carre{
-    border: 2px solid white;
-    width: 40%;
-    height: 60vh;
-    margin-right: 5%;
+  
+    width: 55%;
+    height: 70vh;
+    margin-left: 5%;
     background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
   
    }
    .carre1{
-    border: 2px solid white;
-    width: 40%;
+
+    width: 55%;
     height: 120vh;
     margin-left: 5%;
     background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
   
    }
@@ -621,7 +636,7 @@ font-family: "Atkinson Hyperlegible Next";
    }
   }
 
-  @media (min-width:00px) and (max-width:999px) {
+  @media (min-width:785px) and (max-width:999px) {
     .btn12{
       display: block;
   }
@@ -637,29 +652,29 @@ font-family: "Atkinson Hyperlegible Next";
     .liste1{
       display: flex;
       justify-content: space-between;
-      align-items:center ;
+  
       margin-top: 3%;
-      margin-left: 3%;
+      margin-left: 1%;
       margin-right: 3%;
       z-index: 1;
-     
+   width: 100%;
     }  
     .spé1{
       
       display: none;
-      margin-top: 0%;
+      margin-top: -17%;
      justify-content: center;
      align-items:center ;
-      width: 50%;
-      
-  height: 40vh;
+      width: 10%;
+      z-index: 1;
+  height: 5vh;
   }
   
   li{
  
     display: flex;
     margin-top: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     margin-right: 0%;
     font-size: 15px;
     font-family: 'Segoe UI';
@@ -667,10 +682,12 @@ font-family: "Atkinson Hyperlegible Next";
     display:flex ;
     justify-content: center;
     text-align: center;
-    width: 50%;
+    width: 20%;
+          z-index: 1;
 }
 .haha{
-  display: flex;
+  display: flex
+   ;
 
 }
 
@@ -692,7 +709,7 @@ font-family: "Atkinson Hyperlegible Next";
         justify-content: center;
         align-items: center;
         margin-left: 0%;
-        width: 50%;
+        width: 70%;
         height: 50vh;
         
        
@@ -749,7 +766,7 @@ font-family: "Atkinson Hyperlegible Next";
       }
     
       p6{
-        margin-top: 8%;
+        margin-top: 10%;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -772,10 +789,11 @@ font-family: "Atkinson Hyperlegible Next";
       border: none;
       background-color: white;
     }
-    .ehehe{
+    #ehehe{
       display: block;
+      margin-top: 0%;
     }
-    .projet{
+    #projet{
       display: flex;
       flex-wrap: wrap;
       width: 100%;
@@ -792,10 +810,10 @@ font-family: "Atkinson Hyperlegible Next";
       margin-top:10% ;
      }
      .carre{
-      border: 2px solid white;
-      width: 50%;
-      height: 60vh;
-      margin-right: 5%;
+    
+      width: 60%;
+      height: 80vh;
+      margin-left: 5%;
       background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -803,10 +821,9 @@ font-family: "Atkinson Hyperlegible Next";
      }
     
      .carre1{
-      border: 2px solid white;
-      width: 60%;
+       width: 60%;
       height: 120vh;
-      margin-left: 0%;
+      margin-left: 5%;
       background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -819,4 +836,621 @@ font-family: "Atkinson Hyperlegible Next";
       margin-top: 2%;
       margin-bottom:2% ;
      }
+
+     
+  }
+  @media (min-width:585px) and (max-width:784px) {
+    .btn12{
+      display: block;
+  }
+   
+   
+.boss{
+  font-size: 30px;
+  color: rgb(116, 0, 248);
+margin-left: 4%;
+
+}
+   
+    .liste1{
+      display: flex;
+      justify-content: space-between;
+  
+      margin-top: 3%;
+      margin-left: 1%;
+      margin-right: 3%;
+      z-index: 1;
+   width: 100%;
+    }  
+    .spé1{
+      
+      display: none;
+      margin-top: -17%;
+     justify-content: center;
+     align-items:center ;
+      width: 10%;
+      z-index: 1;
+  height: 5vh;
+  }
+  
+  li{
+ 
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+          z-index: 1;
+}
+.haha{
+  display: flex
+   ;
+
+}
+
+    .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80vh;
+       margin-right: 2%;
+        background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+    .gauche{
+      margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        width: 70%;
+        height: 50vh;
+        
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 0%;
+        flex-wrap: wrap;
+        z-index: 1;
+
+    }
+    p1{
+        font-size: 1.5rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 2.5rem;
+        color: white;
+        margin-bottom: 3.5%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 1.5rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 100%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 15%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+       
+      }
+      span{
+        display: block;
+        margin-bottom: 2%;
+        font-family:'Franklin Gothic Medium';
+        margin-left: 0%;
+        text-align: center;
+    }
+    button{
+      width: 5%;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      background-color: white;
+    }
+    #ehehe{
+      display: block;
+      margin-top: 0%;
+    }
+    #projet{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .projet1{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .carre{
+
+      width: 100%;
+      height: 90vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+     }
+    
+     .carre1{
+   
+      width: 100%;
+      height: 120vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+     }
+     p{
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom:2% ;
+     
+     }
+
+    
+  }
+  @media (min-width:480px) and (max-width:584px) {
+    .btn12{
+      display: block;
+  }
+   
+   
+.boss{
+  font-size: 30px;
+  color: rgb(116, 0, 248);
+margin-left: 4%;
+
+}
+   
+    .liste1{
+      display: flex;
+      justify-content: space-between;
+  
+      margin-top: 3%;
+      margin-left: 1%;
+      margin-right: 3%;
+      z-index: 1;
+   width: 100%;
+    }  
+    .spé1{
+      
+      display: none;
+      margin-top: -17%;
+     justify-content: center;
+     align-items:center ;
+      width: 10%;
+      z-index: 1;
+  height: 5vh;
+  }
+  
+  li{
+ 
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+          z-index: 1;
+}
+.haha{
+  display: flex
+   ;
+
+}
+
+    .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80vh;
+       margin-right: 2%;
+        background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+    .gauche{
+      margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        width: 70%;
+        height: 50vh;
+        
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 0%;
+        flex-wrap: wrap;
+        z-index: 1;
+
+    }
+    p1{
+        font-size: 1.5rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 2.5rem;
+        color: white;
+        margin-bottom: 3.5%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 1.5rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 100%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 15%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+       
+      }
+      span{
+        display: block;
+        margin-bottom: 2%;
+        font-family:'Franklin Gothic Medium';
+        margin-left: 0%;
+        text-align: center;
+    }
+    button{
+      width: 5%;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      background-color: white;
+    }
+    #ehehe{
+      display: block;
+      margin-top: 0%;
+    }
+    #projet{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .projet1{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .carre{
+
+      width: 80%;
+      height: 60vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-bottom:2% ;
+     }
+    
+     .carre1{
+
+      width: 100%;
+      height: 90vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-bottom:2% ;
+     }
+     p{
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom:2% ;
+      margin: 2%;
+     }
+
+    
+  }
+  @media (min-width: 0px) and (max-width:479px) {
+    .btn12{
+      display: block;
+  }
+   
+   
+.boss{
+  font-size: 30px;
+  color: rgb(116, 0, 248);
+margin-left: 10%;
+
+}
+   
+    .liste1{
+      display: flex;
+      justify-content: space-between;
+  
+      margin-top: 3%;
+      margin-left: 1%;
+      margin-right: 3%;
+      z-index: 1;
+   width: 100%;
+    }  
+    .spé1{
+      
+      display: none;
+      margin-top: -17%;
+     justify-content: center;
+     align-items:center ;
+      width: 10%;
+      z-index: 1;
+  height: 5vh;
+  }
+  
+  li{
+ 
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+          z-index: 1;
+}
+.haha{
+  display: flex
+   ;
+
+}
+
+    .droit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 60vh;
+       margin-right: 2%;
+        background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+    .gauche{
+      margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        width: 70%;
+        height: 50vh;
+        
+       
+    }
+    .ctrl1{
+        display: flex;
+        justify-content: space-around;
+      width: 100%;
+        align-items: center;
+        margin-top: 0%;
+        flex-wrap: wrap;
+        z-index: 1;
+
+    }
+    p1{
+        font-size: 1.5rem;
+      color: white;
+      
+      display: block;
+      margin-bottom: 1%;
+      
+    }
+    
+    p2{
+        display: block;
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 3.5%;
+        text-decoration:0.5rem underline rgb(116, 0, 248);
+      }
+      p3{
+        display: block;
+        font-size: 0.8rem;
+        color: white;
+        margin-bottom: 3%;
+      
+      }
+      p4{
+        
+        font-size: 1rem;
+        color:rgb(116, 0, 248) ;
+        margin-bottom: 3%;
+      }
+      p5{
+        display: block;
+        font-size: 1rem;
+        color: white;
+        background-color:rgb(116, 0, 248) ;
+        border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 6%;
+    width: 100%;
+    text-align: center;
+      }
+    
+      p6{
+        margin-top: 15%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+       
+      }
+      span{
+        display: block;
+        margin-bottom: 2%;
+        font-family:'Franklin Gothic Medium';
+        margin-left: 0%;
+        text-align: center;
+    }
+    button{
+      width: 5%;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      background-color: white;
+    }
+    #ehehe{
+      display: block;
+      margin-top: 0%;
+    }
+    #projet{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .projet1{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top:10% ;
+     }
+     .carre{
+
+      width: 80%;
+      height: 45vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-bottom:0% ;
+     }
+    
+     .carre1{
+
+      width: 100%;
+      height: 80vh;
+      margin-left: 5%;
+      background-image: url("https://i.pinimg.com/736x/51/0f/ad/510fad7ac4829296ea029b69deea4319.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-bottom:0% ;
+     }
+     p{
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom:2% ;
+      margin: 2%;
+     }
+
+    
   }
