@@ -55,6 +55,7 @@ button.addEventListener("click",()=>{
 
 
 
+
 window.addEventListener('resize', () => {
     if (window.innerWidth < 1000) {
         burger.style.display = "flex";
@@ -64,4 +65,5 @@ window.addEventListener('resize', () => {
         burger.style.display = "flex";
           spé1.style.display="flex"
     }
+   
 })
