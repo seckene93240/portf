@@ -204,11 +204,13 @@ button {
   width: 100%;
   height: auto;
   border-radius: 4%;
+  border: 2px solid white;
 }
 .carre img{
   width: 100%;
   height: auto;
   border-radius: 4%;
+  border: 2px solid white;
 }
 
 p {
@@ -239,6 +241,11 @@ p30{
   color: rgb(116, 0, 248);
   text-decoration: underline white;
 
+}
+.titredd{
+color: white;
+font-size: 2rem;
+display: block;
 }
 
 @media (min-width:1660px) and (max-width:1875px) {
@@ -271,7 +278,13 @@ p30{
     color: white;
     font-size: 20px;
   }
-
+  #projet {
+    
+    margin-top: 0%;
+  }
+  .titredd{
+    display: none;
+    }
 }
 
 @media (min-width:1400px) and (max-width:1659px) {
@@ -318,7 +331,9 @@ p30{
     margin-top: 0%;
   }
 
-
+  .titredd{
+    display: none;
+    }
 }
 
 @media (min-width:1200px) and (max-width:1399px) {
@@ -369,7 +384,9 @@ p30{
     margin-top: 0%;
   }
 
-
+  .titredd{
+    display: none;
+    }
  
  
 
@@ -418,7 +435,9 @@ p30{
     margin-right: 10%;
   }
   
- 
+  .titredd{
+    display: none;
+    }
   
 
 
@@ -865,15 +884,16 @@ p30{
   .gauche {
     margin-top: 10%;
     margin-left: 0%;
-    width: 70%;
+    width: 85%;
   }
   .carre {
-    width: 95%;
+    width: 85%;
    
   }
 
   .carre1 {
-    width: 95%;
+   
+    width: 85%;
 
   }
   
@@ -881,6 +901,7 @@ p30{
   span {
     margin-left: 0%;
     text-align: center;
+   
   }
   p {
     color: white;
