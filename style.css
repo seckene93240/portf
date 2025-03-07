@@ -191,26 +191,22 @@ button {
   height: auto;
   
 
-
 }
 
 .carre1 {
-
   width: 30%;
-
-
 }
 .carre1 img{
   width: 100%;
   height: auto;
   border-radius: 4%;
-  border: 2px solid white;
+
 }
 .carre img{
   width: 100%;
   height: auto;
   border-radius: 4%;
-  border: 2px solid white;
+
 }
 
 p {
@@ -222,12 +218,14 @@ p50{
   font-size: 20px;
   margin-bottom: 2%;
   margin: 2%;
+  width: 40%;
 }
 p30{
   color: white;
   font-size: 20px;
   margin-bottom: 2%;
   margin: 2%;
+  width: 40%;
 }
 #Pro {
   font-size: 2.5rem;
@@ -243,9 +241,7 @@ p30{
 
 }
 .titredd{
-color: white;
-font-size: 2rem;
-display: block;
+display: none;
 }
 
 @media (min-width:1660px) and (max-width:1875px) {
@@ -279,12 +275,16 @@ display: block;
     font-size: 20px;
   }
   #projet {
-    
-    margin-top: 0%;
+
+    margin-top: 5%;
   }
-  .titredd{
-    display: none;
-    }
+  p30{
+   
+    width: 40%;
+  }
+  p50{
+    width: 40%;
+  }
 }
 
 @media (min-width:1400px) and (max-width:1659px) {
@@ -328,12 +328,16 @@ display: block;
   }
   #projet {
     
-    margin-top: 0%;
+    margin-top: 5%;
   }
-
-  .titredd{
-    display: none;
-    }
+  p30{
+  
+    width: 50%;
+  }
+  p50{
+    width: 50%;
+  }
+ 
 }
 
 @media (min-width:1200px) and (max-width:1399px) {
@@ -381,13 +385,17 @@ display: block;
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
+    margin-top: 5%;
   }
 
-  .titredd{
-    display: none;
-    }
  
+  p30{
+   
+    width: 50%;
+  }
+  p50{
+    width: 50%;
+  }
  
 
 }
@@ -435,12 +443,27 @@ display: block;
     margin-right: 10%;
   }
   
-  .titredd{
-    display: none;
-    }
+  .carre {
+
+    width: 40%;
+    height: auto;
+    margin-right: 3%;
   
+  
+  }
+  
+  .carre1 {
+    width: 40%;
+    margin-left: 3%;
+  }
 
-
+  p30{
+   
+    width: 50%;
+  }
+  p50{
+    width: 50%;
+  }
 }
 
 @media (min-width:785px) and (max-width:999px) {
@@ -566,6 +589,7 @@ display: block;
     margin: 2%;
     display: block;
     text-align: center;
+    width: 30%;
     }
     
     p50{
@@ -578,7 +602,19 @@ display: block;
       margin: 2%;
       text-align: center;
     }
-
+    .titredd{
+    
+      color: white;
+      font-size: 2rem;
+      display: block;
+      }
+      p30{
+   
+        width: 50%;
+      }
+      p{
+        width: 50%;
+      }
 }
 
 @media (min-width:520px) and (max-width:784px) {
@@ -736,6 +772,7 @@ display: block;
     margin: 2%;
     display: block;
     text-align: center;
+    width: 30%;
     }
     
     p50{
@@ -749,7 +786,19 @@ display: block;
       text-align: center;
     }
 
-
+    .titredd{
+     
+      color: white;
+      font-size: 2rem;
+      display: block;
+      }
+      p30{
+   
+        width: 80%;
+      }
+      p{
+        width: 80%;
+      }
 }
 
 
@@ -803,6 +852,7 @@ display: block;
     justify-content: space-around;
     width: 100%;
     margin-top: 0%;
+    margin-bottom: 30%;
     z-index: 1;
   
   }
@@ -910,6 +960,7 @@ display: block;
     margin: 2%;
     display: block;
     text-align: center;
+    width: 30%;
     }
     
     p50{
@@ -922,7 +973,18 @@ display: block;
       margin: 2%;
       text-align: center;
     }
-
-
+    .titredd{
+  
+      color: white;
+      font-size: 2rem;
+      display: block;
+      }
+      p30{
+   
+        width: 90%;
+      }
+      p{
+        width: 90%;
+      }
 }
 
