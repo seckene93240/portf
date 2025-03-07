@@ -562,7 +562,7 @@ p30{
 
 }
 
-@media (min-width:320px) and (max-width:784px) {
+@media (min-width:520px) and (max-width:784px) {
   
 
   .liste1 {
@@ -734,29 +734,31 @@ p30{
 }
 
 
-@media (min-width: 0px) and (max-width:320px) {
-  .btn12 {
-    display: block;
-  }
-
-
-  .boss {
-    font-size: 30px;
-    color: rgb(116, 0, 248);
-    margin-left: 10%;
-
-  }
+@media (min-width:0px) and (max-width:520px) {
+  
 
   .liste1 {
-    display: flex;
     justify-content: space-between;
-
     margin-top: 3%;
     margin-left: 1%;
     margin-right: 3%;
-    z-index: 1;
     width: 100%;
   }
+  .boss {
+    margin-left: 10%;
+
+  }
+  li {
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    z-index: 1;
+  }
+  
 
   .spé1 {
 
@@ -769,124 +771,57 @@ p30{
     height: 5vh;
   }
 
-  li {
-
-    display: flex;
-    margin-top: 0%;
-    margin-bottom: 20%;
-    margin-right: 0%;
-    font-size: 15px;
-    font-family: 'Segoe UI';
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 20%;
-    z-index: 1;
-  }
+  
 
   .haha {
     display: flex;
 
   }
 
-  .droit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 60vh;
-    margin-right: 0%;
-    background-image: url("https://i.pinimg.com/736x/ee/20/9f/ee209f8d65299e2e76437932b3fa53d4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-
-  .gauche {
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0%;
-    width: 70%;
-    height: 50vh;
-
-
-  }
-
+ 
   .ctrl1 {
-    display: flex;
+ 
     justify-content: space-around;
     width: 100%;
-    align-items: center;
     margin-top: 0%;
-    flex-wrap: wrap;
     z-index: 1;
-
+  
   }
 
   p1 {
     font-size: 1.5rem;
-    color: white;
-
-    display: block;
     margin-bottom: 1%;
-
   }
 
   p2 {
-    display: block;
     font-size: 2rem;
-    color: white;
     margin-bottom: 3.5%;
-    text-decoration: 0.5rem underline rgb(116, 0, 248);
   }
 
   p3 {
-    display: block;
-    font-size: 0.8rem;
-    color: white;
+    font-size: 1rem;
     margin-bottom: 3%;
-
   }
 
   p4 {
-
-    font-size: 1rem;
-    color: rgb(116, 0, 248);
+    font-size: 1.2rem;
     margin-bottom: 3%;
   }
 
   p5 {
-    display: block;
     font-size: 1rem;
-    color: white;
-    background-color: rgb(116, 0, 248);
-    border-radius: 1rem;
     padding: 0.5rem;
     margin-bottom: 6%;
-    width: 100%;
-    text-align: center;
+  
   }
 
   p6 {
     margin-top: 15%;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    text-align: center;
+   
 
   }
 
-  span {
-    display: block;
-    margin-bottom: 2%;
-    font-family: 'Franklin Gothic Medium';
-    margin-left: 0%;
-    text-align: center;
-    width: 100%;
-  }
+ 
 
   button {
     width: 5%;
@@ -920,28 +855,36 @@ p30{
     align-items: center;
     margin-top: 10%;
   }
-
-  .carre {
-
-    width: 80%;
-    height: 45vh;
-    margin-left: 5%;
-    background-image: url("https://i.pinimg.com/736x/14/22/31/1422316ba149f1a986182b9e4b3864e3.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-bottom: 0%;
+  .droit {
+    width: 90%;
+    height: 60vh;
+    margin-left: 0%;
+    margin-right: 0%;
   }
-
+  
+  .gauche {
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 70%;
+  }
+  .carre {
+    width: 95%;
+   
+  }
 
   .carre1 {
-    width: 80%;
-    height: 80vh;
-    background-image: url("Capture\ d\'écran\ 2025-03-07\ 113648.png");
-  }
+    width: 95%;
 
+  }
+  
+ 
+  span {
+    margin-left: 0%;
+    text-align: center;
+  }
   p {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 2%;
     margin: 2%;
     display: block;
@@ -953,10 +896,12 @@ p30{
     }
     p30{
       color: white;
-      font-size: 20px;
+      font-size: 15px;
       margin-bottom: 2%;
       margin: 2%;
       text-align: center;
     }
 
+
 }
+
