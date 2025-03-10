@@ -230,7 +230,7 @@ p30{
   font-family: 'Franklin Gothic Medium';
 }
 #Pro {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   margin-top: 10%;
   margin-bottom: 20%;
@@ -244,8 +244,8 @@ p30{
 }
 .titredd{
 display: none;
+font-family: 'Franklin Gothic Medium';
 
-text-decoration: underline  rgb(116, 0, 248);
 
 }
 
@@ -862,7 +862,7 @@ text-decoration: underline  rgb(116, 0, 248);
     justify-content: space-around;
     width: 100%;
     margin-top: 0%;
-    margin-bottom: 30%;
+    margin-bottom: 1%;
     z-index: 1;
   
   }
@@ -933,7 +933,7 @@ text-decoration: underline  rgb(116, 0, 248);
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-bottom: 30%;
   }
   .droit {
@@ -990,15 +990,14 @@ text-decoration: underline  rgb(116, 0, 248);
       color: white;
       font-size: 2rem;
       display: block;
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       }
       p30{
    
         width: 90%;
       }
       p{
-        width: 90%;
+        width: 80%;
         font-family: 'Franklin Gothic Medium';
       }
 }
-
