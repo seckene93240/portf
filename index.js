@@ -11,23 +11,23 @@ let droit =document.querySelector(".droit")
 let boss =document .querySelector(".boss")
 let chef =document .querySelector(".chef")
 let chef2 =document .querySelector(".chef2")
-
-
+let body =document.querySelector("body")
+let ds3 =document.querySelector(".ds3")
 burger.addEventListener("click",()=>{
         
     spé1.style.display="block"
     burger.style.display="none"
     spé1.style.zIndex = "1";
+ds3.style.display="flex"
 
-   
-  
+boss.style.display="none"
+droit.style.marginTop = '30%';
 })
 
 
 
 button.addEventListener("click",()=>{
-    spé1.style.display="none"
-    
+ 
       
     liste1.style.marginTop = "3%";
     li.style.marginTop="0%"
@@ -50,12 +50,6 @@ button.addEventListener("click",()=>{
 })
 
 
-
-
-
-
-
-
 window.addEventListener('resize', () => {
     if (window.innerWidth < 1000) {
         burger.style.display = "flex";
@@ -67,3 +61,10 @@ window.addEventListener('resize', () => {
     }
    
 })
+
+
+body.addEventListener("click",()=>{
+              spé1.style.display="none"
+    burger.style.display = "flex";
+})
+

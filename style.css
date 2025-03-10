@@ -84,6 +84,7 @@ li {
   border-radius: 10%;
   background-size: cover;
 }
+
 span {
   display: block;
   margin-bottom: 2%;
@@ -101,6 +102,7 @@ p1 {
   margin-bottom: 1%;
 
 }
+
 p2 {
   display: block;
   font-size: 5rem;
@@ -189,20 +191,22 @@ button {
 
   width: 30%;
   height: auto;
-  
+
 
 }
 
 .carre1 {
   width: 30%;
 }
-.carre1 img{
+
+.carre1 img {
   width: 100%;
   height: auto;
   border-radius: 4%;
 
 }
-.carre img{
+
+.carre img {
   width: 100%;
   height: auto;
   border-radius: 4%;
@@ -210,10 +214,10 @@ button {
 }
 
 p {
-display: none;
+  display: none;
 }
 
-p50{
+p50 {
   color: white;
   font-size: 20px;
   margin-bottom: 2%;
@@ -221,7 +225,8 @@ p50{
   width: 40%;
   font-family: 'Franklin Gothic Medium';
 }
-p30{
+
+p30 {
   color: white;
   font-size: 20px;
   margin-bottom: 2%;
@@ -229,24 +234,45 @@ p30{
   width: 40%;
   font-family: 'Franklin Gothic Medium';
 }
+
 #Pro {
   font-size: 2rem;
   color: white;
   margin-top: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium';
-  color: rgb(116, 0, 248);
-  text-decoration: underline white;
+  color: white;
+  text-decoration: 0.4rem underline rgb(116, 0, 248);
+
   font-family: 'Franklin Gothic Medium';
 }
-.titredd{
+
+.titredd {
+  display: none;
+  font-family: 'Franklin Gothic Medium';
+
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ds3{
 display: none;
-font-family: 'Franklin Gothic Medium';
+width: 8%;
 
-
+border-radius: 2%;
+margin-left: 2%;
+margin-top: 0%;
+background-color:  rgb(116, 0, 248);
+border:1px solid  white;
+justify-content: center;
+align-items:center;
 }
 
 @media (min-width:1660px) and (max-width:1875px) {
@@ -279,15 +305,18 @@ font-family: 'Franklin Gothic Medium';
     color: white;
     font-size: 20px;
   }
+
   #projet {
 
     margin-top: 5%;
   }
-  p30{
-   
+
+  p30 {
+
     width: 40%;
   }
-  p50{
+
+  p50 {
     width: 40%;
   }
 }
@@ -331,18 +360,21 @@ font-family: 'Franklin Gothic Medium';
   span {
     margin-left: 10%;
   }
+
   #projet {
-    
+
     margin-top: 5%;
   }
-  p30{
-  
+
+  p30 {
+
     width: 50%;
   }
-  p50{
+
+  p50 {
     width: 50%;
   }
- 
+
 }
 
 @media (min-width:1200px) and (max-width:1399px) {
@@ -393,15 +425,16 @@ font-family: 'Franklin Gothic Medium';
     margin-top: 5%;
   }
 
- 
-  p30{
-   
+
+  p30 {
+
     width: 50%;
   }
-  p50{
+
+  p50 {
     width: 50%;
   }
- 
+
 
 }
 
@@ -420,22 +453,24 @@ font-family: 'Franklin Gothic Medium';
     font-size: 2.5rem;
 
   }
+
   p5 {
     padding: 0.6rem;
   }
 
   .droit {
-  
+
     width: 40%;
     height: 70vh;
     margin-left: 3%;
   }
+
   .gauche {
-    
+
     margin-left: 0%;
     width: 50%;
-    
-  
+
+
   }
 
   .ctrl1 {
@@ -447,49 +482,46 @@ font-family: 'Franklin Gothic Medium';
   span {
     margin-right: 10%;
   }
-  
+
   .carre {
 
     width: 40%;
     height: auto;
     margin-right: 3%;
-  
-  
+
+
   }
-  
+
   .carre1 {
     width: 40%;
     margin-left: 3%;
   }
 
-  p30{
-   
+  p30 {
+
     width: 50%;
   }
-  p50{
+
+  p50 {
     width: 50%;
   }
 }
 
 @media (min-width:785px) and (max-width:999px) {
-.liste1 {
+  .liste1 {
 
-  justify-content: space-between;
-  margin-top: 3%;
-  margin-left: 1%;
-  margin-right: 3%;
-  z-index: 1;
-  width: 100%;
-}
-  .spé1 {
-
-    display: none;
-    margin-top: -17%;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 3%;
     z-index: 1;
-    height: 5vh;
+    width: 100%;
+  }
+
+ 
+  .boss {
+    margin-left: 10%;
+
   }
 
   li {
@@ -497,12 +529,25 @@ font-family: 'Franklin Gothic Medium';
     margin-bottom: 20%;
     margin-right: 0%;
     font-size: 15px;
-    font-family: 'Segoe UI';
     justify-content: center;
     text-align: center;
     width: 20%;
     z-index: 1;
   }
+
+
+  .spé1 {
+
+    display: none;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 0%;
+    z-index: 1;
+    height: 5vh;
+  }
+
 
   .haha {
     display: flex;
@@ -514,6 +559,7 @@ font-family: 'Franklin Gothic Medium';
     height: 80vh;
     margin-right: 0%;
   }
+
   .gauche {
     margin-top: 10%;
     margin-left: 0%;
@@ -525,7 +571,7 @@ font-family: 'Franklin Gothic Medium';
     margin-top: 0%;
     z-index: 1;
   }
-  
+
 
   p1 {
     font-size: 1.5rem;
@@ -553,6 +599,7 @@ font-family: 'Franklin Gothic Medium';
     margin-left: 0%;
     text-align: center;
   }
+
   button {
     width: 5%;
     padding: 0.5rem;
@@ -583,10 +630,10 @@ font-family: 'Franklin Gothic Medium';
 
   .carre1 {
     width: 60%;
-    
+
   }
-  
-  
+
+
   p {
     color: white;
     font-size: 20px;
@@ -595,37 +642,41 @@ font-family: 'Franklin Gothic Medium';
     display: block;
     text-align: center;
     width: 30%;
-    }
-    
-    p50{
-     display: none;
-    }
-    p30{
-      color: white;
-      font-size: 20px;
-      margin-bottom: 2%;
-      margin: 2%;
-      text-align: center;
-    }
-    .titredd{
-    
-      color: white;
-      font-size: 2rem;
-      display: block;
-      margin-bottom: 5%;
-      }
-      p30{
-   
-        width: 50%;
-      }
-      p{
-        width: 50%;
-        font-family: 'Franklin Gothic Medium';
-      }
+  }
+
+  p50 {
+    display: none;
+  }
+
+  p30 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+
+  .titredd {
+
+    color: white;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  p30 {
+
+    width: 50%;
+  }
+
+  p {
+    width: 50%;
+    font-family: 'Franklin Gothic Medium';
+  }
 }
 
 @media (min-width:520px) and (max-width:784px) {
-  
+
 
   .liste1 {
     justify-content: space-between;
@@ -634,10 +685,13 @@ font-family: 'Franklin Gothic Medium';
     margin-right: 3%;
     width: 100%;
   }
+
+  
   .boss {
-    margin-left: 4%;
+    margin-left: 10%;
 
   }
+
   li {
     margin-top: 0%;
     margin-bottom: 20%;
@@ -648,34 +702,36 @@ font-family: 'Franklin Gothic Medium';
     width: 20%;
     z-index: 1;
   }
-  
+
 
   .spé1 {
 
     display: none;
-    margin-top: -17%;
+    margin-top: 0%;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 50%;
+    margin-top: 0%;
     z-index: 1;
     height: 5vh;
   }
 
-  
+
+
 
   .haha {
     display: flex;
 
   }
 
- 
+
   .ctrl1 {
- 
+
     justify-content: space-around;
     width: 100%;
     margin-top: 0%;
     z-index: 1;
-  
+
   }
 
   p1 {
@@ -702,16 +758,16 @@ font-family: 'Franklin Gothic Medium';
     font-size: 1rem;
     padding: 0.5rem;
     margin-bottom: 6%;
-  
+
   }
 
   p6 {
     margin-top: 15%;
-   
+
 
   }
 
- 
+
 
   button {
     width: 5%;
@@ -746,33 +802,38 @@ font-family: 'Franklin Gothic Medium';
     margin-top: 10%;
     margin-bottom: 30%;
   }
+
   .droit {
     width: 80%;
     height: 80vh;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 5%;
   }
+
   
   .gauche {
     margin-top: 10%;
     margin-left: 0%;
     width: 70%;
   }
+
   .carre {
     width: 60%;
-   
+
   }
 
   .carre1 {
     width: 60%;
 
   }
-  
- 
+
+
   span {
     margin-left: 0%;
     text-align: center;
   }
+
   p {
     color: white;
     font-size: 20px;
@@ -781,51 +842,56 @@ font-family: 'Franklin Gothic Medium';
     display: block;
     text-align: center;
     width: 30%;
-    }
-    
-    p50{
-     display: none;
-    }
-    p30{
-      color: white;
-      font-size: 20px;
-      margin-bottom: 2%;
-      margin: 2%;
-      text-align: center;
-    }
+  }
 
-    .titredd{
-     
-      color: white;
-      font-size: 2rem;
-      display: block;
-      margin-bottom: 5%;
-      }
-      p30{
-   
-        width: 80%;
-      }
-      p{
-        width: 80%;
-        font-family: 'Franklin Gothic Medium';
-      }
+  p50 {
+    display: none;
+  }
+
+  p30 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+
+  .titredd {
+
+    color: white;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  p30 {
+
+    width: 80%;
+  }
+
+  p {
+    width: 80%;
+    font-family: 'Franklin Gothic Medium';
+  }
 }
 
 
 @media (min-width:0px) and (max-width:520px) {
-  
+
 
   .liste1 {
     justify-content: space-between;
     margin-top: 3%;
-    margin-left: 1%;
+    margin-left: 0%;
     margin-right: 3%;
     width: 100%;
   }
+
   .boss {
     margin-left: 10%;
 
   }
+
   li {
     margin-top: 0%;
     margin-bottom: 20%;
@@ -836,35 +902,36 @@ font-family: 'Franklin Gothic Medium';
     width: 20%;
     z-index: 1;
   }
-  
+
 
   .spé1 {
 
     display: none;
-    margin-top: -17%;
+    margin-top: 0%;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 50%;
+    margin-top: 0%;
     z-index: 1;
     height: 5vh;
   }
 
-  
+
 
   .haha {
     display: flex;
 
   }
 
- 
+
   .ctrl1 {
- 
-    justify-content: space-around;
+
+    justify-content: space-evenly;
     width: 100%;
     margin-top: 0%;
     margin-bottom: 1%;
     z-index: 1;
-  
+
   }
 
   p1 {
@@ -891,16 +958,16 @@ font-family: 'Franklin Gothic Medium';
     font-size: 1rem;
     padding: 0.5rem;
     margin-bottom: 6%;
-  
+
   }
 
   p6 {
     margin-top: 15%;
-   
+
 
   }
 
- 
+
 
   button {
     width: 5%;
@@ -924,7 +991,7 @@ font-family: 'Franklin Gothic Medium';
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-   
+
   }
 
   .projet1 {
@@ -934,37 +1001,41 @@ font-family: 'Franklin Gothic Medium';
     justify-content: center;
     align-items: center;
     margin-top: 0%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
+
   .droit {
     width: 90%;
     height: 60vh;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 5%;
   }
-  
+
   .gauche {
     margin-top: 10%;
     margin-left: 0%;
     width: 85%;
   }
+
   .carre {
     width: 85%;
-   
+
   }
 
   .carre1 {
-   
+
     width: 85%;
 
   }
-  
- 
+
+
   span {
     margin-left: 0%;
     text-align: center;
-   
+
   }
+
   p {
     color: white;
     font-size: 15px;
@@ -973,31 +1044,35 @@ font-family: 'Franklin Gothic Medium';
     display: block;
     text-align: center;
     width: 30%;
-    }
-    
-    p50{
-     display: none;
-    }
-    p30{
-      color: white;
-      font-size: 15px;
-      margin-bottom: 2%;
-      margin: 2%;
-      text-align: center;
-    }
-    .titredd{
-  
-      color: white;
-      font-size: 2rem;
-      display: block;
-      margin-bottom: 10%;
-      }
-      p30{
-   
-        width: 90%;
-      }
-      p{
-        width: 80%;
-        font-family: 'Franklin Gothic Medium';
-      }
+  }
+
+  p50 {
+    display: none;
+  }
+
+  p30 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+
+  .titredd {
+
+    color: white;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10%;
+  }
+
+  p30 {
+
+    width: 90%;
+  }
+
+  p {
+    width: 90%;
+    font-family: 'Franklin Gothic Medium';
+  }
 }
