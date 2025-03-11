@@ -25,6 +25,13 @@ droit.style.marginTop = '30%';
 })
 
 
+ds3.addEventListener("click",()=>{
+    spé1.style.display="none"
+    burger.style.display = "flex";
+    ds3.style.display="none"
+    boss.style.display="flex"
+    droit.style.marginTop = '10%';
+})
 
 button.addEventListener("click",()=>{
  
@@ -60,11 +67,5 @@ window.addEventListener('resize', () => {
           spé1.style.display="flex"
     }
    
-})
-
-
-body.addEventListener("click",()=>{
-              spé1.style.display="none"
-    burger.style.display = "flex";
 })
 
