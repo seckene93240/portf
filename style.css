@@ -33,7 +33,7 @@ li {
 
 .boss {
   font-size: 30px;
-  color: rgb(116, 0, 248);
+  color: RGB(216, 197, 165);
 
 }
 
@@ -116,7 +116,7 @@ p3 {
 p4 {
 
   font-size: 3rem;
-  color: rgb(116, 0, 248);
+  color: RGB(216, 197, 165);
   margin-bottom: 15%;
 
 }
@@ -124,8 +124,8 @@ p4 {
 p5 {
   display: block;
   font-size: 1.2rem;
-  color: white;
-  background-color: rgb(116, 0, 248);
+  color: black;
+  background-color: RGB(216, 197, 165);
   border-radius: 1rem;
   padding: 0.4rem;
   margin-bottom: 0%;
@@ -211,7 +211,7 @@ p50 {
   font-size: 20px;
   margin-bottom: 2%;
   margin: 2%;
-  width: 40%;
+  width: 41%;
   font-family: 'Franklin Gothic Medium';
 }
 
@@ -234,7 +234,7 @@ p30 {
   align-items: center;
   font-family: 'Franklin Gothic Medium';
   color: white;
-  text-decoration: 0.4rem underline rgb(116, 0, 248);
+  text-decoration: 0.4rem underline RGB(216, 197, 165);
 
   font-family: 'Franklin Gothic Medium';
 }
@@ -264,7 +264,7 @@ align-items:center;
 @media (min-width:1660px) and (max-width:1875px) {
   p2 {
     font-size: 4rem;
-    text-decoration: 0.5rem underline rgb(116, 0, 248);
+    
   }
 
   p3 {
