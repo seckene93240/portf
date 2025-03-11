@@ -135,7 +135,7 @@ p5 {
 }
 
 p6 {
-  margin-top: 0%;
+  margin-top: 10%;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -925,7 +925,7 @@ align-items:center;
   }
 
   p6 {
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   button {
