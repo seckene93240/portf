@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #090A0E;
+  background-color: #000000;
 
 }
 
@@ -135,7 +135,7 @@ p5 {
   background-color: rgb(116, 0, 248);
   border-radius: 1rem;
   padding: 0.4rem;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   width: 100%;
   text-align: center;
   font-family: "Atkinson Hyperlegible Next";
@@ -143,12 +143,13 @@ p5 {
 
 
 p6 {
-  margin-top: 10%;
+  margin-top: 0%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
-  margin-left: 2%;
+  margin-left: 0%;
   text-align: center;
+  
 
 }
 
@@ -238,8 +239,8 @@ p30 {
 #Pro {
   font-size: 2rem;
   color: white;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -673,6 +674,10 @@ align-items:center;
     width: 50%;
     font-family: 'Franklin Gothic Medium';
   }
+
+  .ds3{
+    width: 3%;
+  }
 }
 
 @media (min-width:520px) and (max-width:784px) {
@@ -873,6 +878,9 @@ align-items:center;
     width: 80%;
     font-family: 'Franklin Gothic Medium';
   }
+  .ds3{
+    width: 5%;
+  }
 }
 
 
@@ -937,6 +945,7 @@ align-items:center;
   p1 {
     font-size: 1.5rem;
     margin-bottom: 1%;
+    
   }
 
   p2 {
@@ -1061,7 +1070,7 @@ align-items:center;
   .titredd {
 
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: block;
     margin-bottom: 10%;
   }
@@ -1072,7 +1081,7 @@ align-items:center;
   }
 
   p {
-    width: 90%;
+    width: 80%;
     font-family: 'Franklin Gothic Medium';
   }
 }
