@@ -198,7 +198,7 @@ button {
 .carre img {
   width: 100%;
   height: auto;
-  border-radius: 4%;
+
 
 }
 
@@ -265,16 +265,32 @@ align-items:center;
   display: flex;
   justify-content: space-between;
   margin: 10%;
-   
+  text-align: center;
+  align-items: center;
 
 }
 P77{
   text-align: center;
+  align-items: center;
   display: block;
   color: white;
   font-size: 20PX;
   font-family: 'Franklin Gothic Medium';
 }
+p74{  font-size:25px;
+  text-align: center;
+  display: block;
+  color: RGB(216, 197, 165) ;
+  margin-top: 5%;
+  font-family: 'Franklin Gothic Medium';
+}
+.yaoo{
+  display: block;
+}
+img{
+  margin-bottom: 50%;
+}
+
 
 @media (min-width:1660px) and (max-width:1875px) {
   p2 {
@@ -749,8 +765,7 @@ P77{
 
   p6 {
     margin-top: 15%;
-
-
+    margin-bottom: 10%;
   }
 
   button {
@@ -857,6 +872,7 @@ P77{
   .ds3{
     width: 5%;
   }
+
 }
 
 @media (min-width:0px) and (max-width:520px) {
@@ -941,6 +957,7 @@ P77{
 
   p6 {
     margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   button {
@@ -1043,8 +1060,15 @@ P77{
   }
 
   p {
-    width: 80%;
+    width: 90%;
     font-family: 'Franklin Gothic Medium';
   }
-  
+
+  .stacks{
+    justify-content: center;
+    
+  }
+  .yaoo{
+    margin: 2%;
+  }
 }

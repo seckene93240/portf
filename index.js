@@ -19,7 +19,6 @@ burger.addEventListener("click",()=>{
     burger.style.display="none"
     spé1.style.zIndex = "1";
 ds3.style.display="flex"
-
 boss.style.display="none"
 droit.style.marginTop = '30%';
 })
