@@ -178,10 +178,10 @@ button {
 
 .carre {
 
-  width: 40%;
+  width: 35%;
   height: auto;
-
-
+border: 3rem solid whitesmoke;
+border-radius: 5%;
 }
 
 .carre1 {
