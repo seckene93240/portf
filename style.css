@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:black;
+  background-color:white;
 
 }
 
@@ -26,14 +26,16 @@ li {
   display: flex;
   margin-right: 20%;
   font-size: 25px;
-  font-family: 'Segoe UI';
-  color: white;
+  color: black;
+  font-family: Oswald;
 
 }
 
 .boss {
   font-size: 30px;
   color: RGB(216, 197, 165);
+  
+  font-family: Oswald;
 
 }
 
@@ -61,7 +63,7 @@ li {
   align-items: center;
   margin-left: 5%;
   width: 50%;
-  height: 50vh;
+  height: 60vh;
 
 }
 
@@ -72,7 +74,7 @@ li {
   width: 35%;
   height: 60vh;
   margin-left: 8%;
-  background-image: url("https://us.123rf.com/450wm/virtosmedia/virtosmedia2301/virtosmedia230108569/197234845-portrait-de-profil-d-homme-afro-am%C3%A9ricain-illustration-vectorielle-dans-un-style-r%C3%A9tro.jpg?ver=6");
+  background-image: url("ChatGPT\ Image\ 18\ juin\ 2025\,\ 12_04_40.png");
   background-repeat: no-repeat;
 
   border-radius: 10%;
@@ -81,6 +83,7 @@ li {
 
 span {
   display: block;
+  justify-content: flex-end;
   margin-bottom: 2%;
   font-family: 'Franklin Gothic Medium';
   margin-left: 20%;
@@ -89,7 +92,7 @@ span {
 
 p1 {
   font-size: 3rem;
-  color: white;
+  color: black;
 
   display: block;
   margin-bottom: 1%;
@@ -99,7 +102,7 @@ p1 {
 p2 {
   display: block;
   font-size: 5rem;
-  color: white;
+  color: black;
   margin-bottom: 3%;
 
 }
@@ -107,7 +110,7 @@ p2 {
 p3 {
   display: block;
   font-size: 3rem;
-  color: white;
+  color: black;
   margin-bottom: 5%;
   width: 100%;
 
@@ -137,7 +140,7 @@ p5 {
 p6 {
   margin-top: 10%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   margin-left: 0%;
   text-align: center;
@@ -180,7 +183,7 @@ button {
 
   width: 35%;
   height: auto;
-border: 3rem solid whitesmoke;
+border: 3rem solid #504E59;
 border-radius: 5%;
 }
 
@@ -207,7 +210,7 @@ p {
 }
 
 p50 {
-  color: white;
+  color: black;
   font-size: 20px;
   margin-bottom: 2%;
   margin: 2%;
@@ -216,24 +219,25 @@ p50 {
 }
 
 p30 {
-  color: white;
+  color: black;
   font-size: 20px;
   margin-bottom: 2%;
   margin: 2%;
-  width: 40%;
+  width: 50%;
+  text-align: center;
   font-family: 'Franklin Gothic Medium';
 }
 
 #Pro {
   font-size: 2rem;
-  color: white;
+ 
   margin-bottom: 10%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium';
-  color: white;
+  color: RGB(216, 197, 165);
   text-decoration: 0.4rem underline RGB(216, 197, 165);
 
   font-family: 'Franklin Gothic Medium';
@@ -246,7 +250,7 @@ p30 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .ds3{
