@@ -53,7 +53,7 @@ li {
   justify-content: center;
   width: 80%;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
   flex-wrap: wrap;
 }
 
@@ -294,6 +294,112 @@ p74{  font-size:25px;
 #june{
   margin-bottom: 50%;
 }
+.competances{
+  margin-top: 10rem;
+  color: RGB(216, 197, 165);;
+  
+  font-family: 'Franklin Gothic Medium';
+  
+  
+}
+.Projets{
+  
+  margin-top: 10rem;
+  color: RGB(216, 197, 165);;
+  
+  font-family: 'Franklin Gothic Medium';
+  
+  
+}
+
+.cards-container {
+  margin-top: 5rem;
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card p {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.card img {
+  width:100px;
+  height: 60px;
+  filter: grayscale(100%) brightness(0);
+}
+.carte-photo {
+  width: 40%;
+  background-color: white;
+  border-radius: 16px;
+  border: 3px solid black;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.carte-photo:hover {
+  transform: translateY(-5px);
+}
+
+.carte-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titre-carte {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.description-carte {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.haut{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.haut1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.p8{ 
+  display: flex;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 1rem;
+  margin-bottom: 2%;
+  margin-top: 2rem;
+  width: 50%;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  text-spacing-trim: 1rem;
+  
+  font-family: "Atkinson Hyperlegible Next";
+}
 
 
 @media (min-width:1660px) and (max-width:1875px) {
@@ -340,6 +446,24 @@ p74{  font-size:25px;
   p50 {
     width: 40%;
   }
+  .carte-photo {
+  width: 40%;
+
+}
+.p8{ 
+  display: flex;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 1rem;
+  margin-bottom: 0%;
+  margin-top: 2rem;
+  width: 60%;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  
+  font-family: "Atkinson Hyperlegible Next";
+}
 }
 
 @media (min-width:1400px) and (max-width:1659px) {
@@ -359,28 +483,6 @@ p74{  font-size:25px;
     font-size: 1.3rem;
   }
 
-  .droit {
-    width: 40%;
-    height: 65vh;
-    margin-left: 5%;
-  }
-
-  .gauche {
-    margin-right: 8%;
-
-  }
-
-  .ctrl1 {
-
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-
-
-  span {
-    margin-left: 10%;
-  }
 
   #projet {
 
@@ -395,7 +497,10 @@ p74{  font-size:25px;
   p50 {
     width: 50%;
   }
+.carte-photo {
+  width: 50%;
 
+}
 }
 
 @media (min-width:1200px) and (max-width:1399px) {
@@ -414,29 +519,14 @@ p74{  font-size:25px;
 
   p5 {
     font-size: 1.3rem;
-    width: 80%;
+    width: 100%;
   }
 
   p6 {
     width: 80%;
   }
 
-  .droit {
-    width: 40%;
-    height: 70vh;
-    margin-left: 3%;
-  }
-
-  .ctrl1 {
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-
-  span {
-    margin-left: 10%;
-  }
-
+  
   #projet {
     display: flex;
     width: 100%;
@@ -453,7 +543,18 @@ p74{  font-size:25px;
   p50 {
     width: 50%;
   }
+  .carte-photo {
+  width: 50%;
 
+}
+.ctrl1 {
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+.p8{ 
+  width: 50%;
+}
 }
 
 @media (min-width:1000px) and (max-width:1199px) {
@@ -476,25 +577,12 @@ p74{  font-size:25px;
     padding: 0.6rem;
   }
 
-  .droit {
-
-    width: 40%;
-    height: 70vh;
-    margin-left: 3%;
-  }
-
-  .gauche {
-
-    margin-left: 0%;
-    width: 50%;
-
-
-  }
+  
 
   .ctrl1 {
     justify-content: space-around;
     width: 100%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   span {
@@ -519,6 +607,13 @@ p74{  font-size:25px;
   p50 {
     width: 50%;
   }
+    .carte-photo {
+  width: 60%;
+
+}
+.p8{ 
+  width: 70%;
+}
 }
 
 @media (min-width:785px) and (max-width:999px) {
@@ -598,11 +693,14 @@ p74{  font-size:25px;
   }
 
   p5 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 0.5rem;
     margin-bottom: 6%;
+    width: 80%;
   }
-
+ p6 {
+  justify-content: space-around;
+  }
   span {
     margin-left: 0%;
     text-align: center;
@@ -683,8 +781,40 @@ p74{  font-size:25px;
   .ds3{
     width: 3%;
   }
+  
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.competances{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.Projets{
+   margin-top: 2rem;
+   
+  font-size: 2rem;
+}
+.carte-photo {
+width: 70%;
 }
 
+  .p8{
+font-size: 1.3rem;
+  font-family: "Atkinson Hyperlegible Next";
+width: 90%;
+margin-top: 2rem;
+margin-bottom: 0rem;
+  }
+  .haut{
+    font-size: 1.2rem;
+}
+.gauche{
+  width: 100%;
+}
+}
 @media (min-width:520px) and (max-width:784px) {
 
 
@@ -761,15 +891,18 @@ p74{  font-size:25px;
   }
 
   p5 {
-    font-size: 1rem;
+    
+    font-size: 1.5rem;
     padding: 0.5rem;
     margin-bottom: 6%;
+      width: 80%;
 
   }
 
   p6 {
     margin-top: 15%;
     margin-bottom: 10%;
+    justify-content: space-around;
   }
 
   button {
@@ -811,7 +944,7 @@ p74{  font-size:25px;
     height: 80vh;
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 5%;
+    margin-top: 0%;
   }
 
   .gauche {
@@ -876,10 +1009,42 @@ p74{  font-size:25px;
   .ds3{
     width: 5%;
   }
-
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  margin-top: 2rem;
+}
+.competances{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.Projets{
+   margin-top: 2rem;
+   
+  font-size: 2rem;
+}
+.carte-photo {
+width: 90%;
 }
 
-@media (min-width:0px) and (max-width:520px) {
+  .p8{
+font-size: 1.3rem;
+width: 90%;
+
+margin-top: 2rem;
+margin-bottom: 0rem;
+  }
+  .haut{font-size: 1.2rem;
+}
+.gauche{
+  width: 100%;
+}
+}
+
+@media (min-width:0px) and (max-width:519px) {
 
 
   .liste1 {
@@ -956,12 +1121,13 @@ p74{  font-size:25px;
     font-size: 1rem;
     padding: 0.5rem;
     margin-bottom: 6%;
-
+  width:90%;
   }
 
   p6 {
     margin-top: 10%;
     margin-bottom: 10%;
+    justify-content: space-around;
   }
 
   button {
@@ -1001,7 +1167,7 @@ p74{  font-size:25px;
 
   .droit {
     width: 90%;
-    height: 45vh;
+    height: 50vh;
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
@@ -1075,4 +1241,39 @@ p74{  font-size:25px;
   .yaoo{
     margin: 2%;
   }
+  .cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  margin-top: 2rem;
+}
+.competances{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.Projets{
+   margin-top: 2rem;
+   
+  font-size: 2rem;
+
+}
+.carte-photo {
+width: 90%;
+}
+
+  .p8{
+font-size: 1rem;
+  font-family: "Atkinson Hyperlegible Next";
+width: 90%;
+margin-top: 2rem;
+margin-bottom: 0rem;
+  }
+  .haut{
+    font-size: 1.2rem;
+}
+.gauche{
+  width: 100%;
+}
 }
