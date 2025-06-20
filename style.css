@@ -9,27 +9,48 @@ body {
 
 }
 
-.liste1 {
+
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1%;
+  padding: 1rem 2rem;
+  position: relative;
 }
 
-.spé1 {
-  display: flex;
-  margin: 1%;
-
-}
-
-li {
-  display: flex;
-  margin-right: 20%;
-  font-size: 25px;
-  color: black;
+.logo {
+  font-size: 2rem;
+  color:#D8C5A5;
+  
   font-family: Oswald;
-
 }
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  font-family: Oswald;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(216, 197, 165);
+  
+}
+
+.burger,
+.close-btn {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
 
 .boss {
   font-size: 30px;
@@ -401,7 +422,10 @@ p74{  font-size:25px;
   
   font-family: Oswald;
 }
-
+.chef{
+  margin-top: 1rem;
+  color: white;
+}
 
 @media (min-width:1660px) and (max-width:1875px) {
   p2 {
@@ -615,6 +639,51 @@ p74{  font-size:25px;
 .p8{ 
   width: 70%;
 }
+}
+
+@media (max-width: 999px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    display: none;
+    background-color: whitesmoke;;
+  }
+
+  .burger {
+    display: block;
+    
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    z-index: 10;
+
+  }
+
+  .close-btn.active {
+    display: block;
+    position: absolute;
+    right: 2rem;
+  }
+
+  .burger.hide {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    
+    background-color: whitesmoke;
+  }
 }
 
 @media (min-width:785px) and (max-width:999px) {
